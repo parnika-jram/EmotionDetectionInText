@@ -1,1 +1,8 @@
-"# EmotionDetectionInText" 
+EmotionDetectionInText 
+
+Emotion detection from textual data is a critical task in natural language processing, with applications in sentiment analysis, human–computer interaction, and mental health monitoring. This project presents a machine learning–based emotion classification system that integrates statistical text modeling with rule-based linguistic refinement to improve prediction reliability. The system processes raw textual inputs through a structured preprocessing pipeline that includes noise removal, handling data imbalance, and negation handling. Feature extraction is performed using both CountVectorizer and TF-IDF representations with n-gram support.
+Multiple supervised learning models—Logistic Regression, Support Vector Machine, Random Forest, and Decision Tree—are trained and evaluated using cross-validation and hyperparameter tuning. Among the evaluated models, the Support Vector Machine classifier combined with CountVectorizer achieved the highest classification accuracy, outperforming other model–vectorizer combinations in terms of predictive performance.
+To address semantic limitations inherent in data-driven models, a rule-based post-processing layer is incorporated to handle negation-driven emotional shifts, such as negated positive and negated negative expressions. This hybrid approach enhances interpretability and corrects logically inconsistent predictions without altering underlying probability distributions.
+The finalized model is deployed through a Streamlit-based web application that enables real-time emotion prediction, confidence visualization, and transparency regarding rule application. Experimental results confirm that combining machine learning with linguistic rules improves robustness and user trust. The proposed system demonstrates an effective, interpretable, and deployable solution for emotion detection from text.
+
+Deployed: https://emotiondetectionintextusingml.streamlit.app/
