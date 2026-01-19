@@ -14,3 +14,5 @@ The proposed system introduces a machine learning–based emotion classification
 •	Following model prediction, a rule-based post-processing layer is employed to correct logically inconsistent outputs caused by negation-driven emotional shifts. This hybrid approach enhances prediction reliability without altering the learned model parameters.
 •	The optimized classifier is deployed through a Streamlit-based web application that enables real-time emotion prediction from user input. The interface displays predicted emotions along with confidence scores and transparency regarding rule-based adjustments. Overall, the proposed system delivers an accurate, interpretable, and deployable solution for emotion classification from text using classical machine learning techniques.
 •	This system is highly relevant to real-world applications such as social media analysis, customer feedback evaluation, mental health monitoring, and human–computer interaction systems.
+
+Notebook used: Emotion_Detection_in_Text.py
