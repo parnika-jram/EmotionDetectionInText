@@ -7,7 +7,7 @@ The finalized model is deployed through a Streamlit-based web application that e
 
 Deployed: https://emotiondetectionintextusingml.streamlit.app/
 
-Proposed System 
+Proposed System:
 The proposed system introduces a machine learning–based emotion classification framework designed to overcome limitations of traditional text-based emotion detection methods, particularly in handling negation and class imbalance. The system emphasizes interpretability and efficiency by utilizing classical machine learning models and statistical text representation techniques.
 •	The framework begins with a structured preprocessing pipeline that performs text normalization, noise removal, and tokenization while explicitly preserving negation words such as not, no, and never. A negation-aware transformation is applied to capture negated emotional expressions by modifying affected tokens, enabling vectorization techniques to retain semantic context. Class imbalance is handled using Synthetic Minority Over-sampling Technique  (SMOTE).
 •	Feature extraction is carried out using Count Vectorizer and TF-IDF representations with n-gram support to capture local contextual patterns. These features are used to train multiple supervised classifiers, including Logistic Regression, Support Vector Machine, Decision Tree, and Random Forest. To address class imbalance, stratified data splitting and class-weighted learning are incorporated, ensuring fair representation of minority emotion classes during training.
